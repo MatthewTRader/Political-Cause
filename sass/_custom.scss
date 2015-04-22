@@ -1,0 +1,18 @@
+
+/*------------------------------------*\
+    Custome Styles
+\*------------------------------------*/
+
+h2 {
+    line-height: 1.1em;
+}
+
+header h2 + p {
+    line-height: 1.4em;
+}
+
+textarea {
+    padding: 0;
+    height: 40px;
+    width: 25% !important;
+}
