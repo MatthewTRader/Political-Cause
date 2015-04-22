@@ -3,16 +3,13 @@
 	<main role="main">
 		<!-- section -->
 		<section>
-
-			<h1><?php the_title(); ?></h1>
-
+			<div class="wrapper facesHeader">
+			<h2><span id="totalPeople">0</span> people have uploaded their selfie with a total of <span>$</span><span id="totalDebt">0</span> of school debt with an average of <span>$</span><span id="averageDebt">0</span> per person</h2>
+            </div>
 		<?php if (have_posts()): while (have_posts()) : the_post(); ?>
-
 			<!-- article -->
 			<article id="post-<?php the_ID(); ?>" <?php post_class(); ?>>
-
 				<?php the_content(); ?>
-
 				<br class="clear">
 
 				<?php edit_post_link(); ?>

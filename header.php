@@ -20,9 +20,9 @@
 		<script src="<?php get_template_directory_uri(); ?>/wp-content/themes/Political%20Cause/js/skel-layers.min.js"></script>
 		<script src="<?php get_template_directory_uri(); ?>/wp-content/themes/Political%20Cause/js/init.js"></script>
 		<noscript>
-			<link rel="stylesheet" href="<?php get_template_directory_uri(); ?>/wp-content/themes/Political%20Causejs/css/skel.css" />
-			<link rel="stylesheet" href="<?php get_template_directory_uri(); ?>/wp-content/themes/Political%20Causejs/css/style.css" />
-			<link rel="stylesheet" href="<?php get_template_directory_uri(); ?>/wp-content/themes/Political%20Causejs/css/style-xlarge.css" />
+			<link rel="stylesheet" href="<?php get_template_directory_uri(); ?>/wp-content/themes/Political%20Cause/css/skel.css" />
+			<link rel="stylesheet" href="<?php get_template_directory_uri(); ?>/wp-content/themes/Political%20Cause/css/style.css" />
+			<link rel="stylesheet" href="<?php get_template_directory_uri(); ?>/wp-content/themes/Political%20Cause/css/style-xlarge.css" />
 		</noscript>
 		<!--[if lte IE 9]><link rel="stylesheet" href="css/ie/v9.css" /><![endif]-->
 		<!--[if lte IE 8]><link rel="stylesheet" href="css/ie/v8.css" /><![endif]-->
@@ -42,8 +42,11 @@
 		<!-- Header -->
 			<header id="header">
 				<h1 id="logo"><a href="/">Faces of Debt</a></h1>
-				<nav id="nav">
-					<a href="/faces" class="button special">Submit Photo</a>
+                
+                        <nav id="nav">
+					<a href="/faces" class="button special">Submit A Selfie</a>
 				</nav>
+                
+                <div class="clear"></div>
 			</header>
 
