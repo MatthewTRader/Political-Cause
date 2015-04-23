@@ -1,110 +1,60 @@
-
 /*------------------------------------*\
     Custome Styles
 \*------------------------------------*/
 
 h2 {
-
     line-height: 1.1em;
-
 }
-
 header h2 + p {
-
     line-height: 1.4em;
-
 }
-
 h2 span {
-
     color: #3498DB;
-
     font-weight: 700;
-
 }
-
 #nav {
-
     position: absolute;
-
     right: 15px;
-
     z-index: 100;
-
     top: 15px;
-
 }
-
 .container {
-
     width: auto;
-
 }
-
 #header h1 a {
-
     left: .4em;
-
     font-size: 3rem;
-
 }
-
 .search_form {
-
     display: inline;
-
     h3 {
-
         width: 33%;
-
         float: left;
-
         text-align: right;
-
         padding-right: 20px;
-
     }
-
     input[type="text"] {
-
         width: 25%;
-
         float: left;
-
     }
-
     input {
-
         height: 2rem !important;
-
         line-height: 1rem !important;
-
         font-size: 1.5rem;
-
         float: left;
-
         margin-left: 20px;
-
         margin-top: 5px;
-
     }
-
 }
-
 #five header p {
-
     text-align: left;
-
     padding: 0 50px;
-
 }
-
 .wrapper {
-
-    padding: 2em 0px 4em;
-
+    padding: 2em 0px 3em;
 }
-.spotlight.top .content, .spotlight.bottom .content {
+.spotlight.top .content,
+.spotlight.bottom .content {
     padding: 5.1em 40px 3.1em;
 }
 .facesHeader h2 {
@@ -113,92 +63,103 @@ h2 span {
     margin-bottom: 0;
     padding-bottom: 0;
 }
-
-.ugc-inner-wrapper{ 
- 
-.ugc-input-wrapper {
-    min-width: 31% !important;
-    margin: 0px 10px;
-    float: left;
-    text-align: left;
-}
-h2 {
-    padding: 5px 10px;
-    width: 100%;
-    text-align: left;
-    margin: 0px 0px .3em;
-}
+.ugc-inner-wrapper {
+    input[type="submit"], input[type="reset"], input[type="button"], .button {
+        background-color: #E76278;
+    }
+    .ugc-input-wrapper {
+        margin: 0px 10px;
+        float: left;
+        text-align: left;
+    }
+    h2 {
+        padding: 5px 10px;
+        width: 100%;
+        text-align: left;
+        margin: 0px 0px .3em;
+    }
     textarea {
-    padding: 0px;
-    height: 40px;
-    width: 100%;;
-    float: left;
-    margin-top: -20px;
-}
+        padding: 0px;
+        height: 40px;
+        width: 45% !important;
+        float: left;
+        margin-top: -20px;
+    }
 }
 .photoMosaic span {
     text-shadow: 2px 2px 2px #000;
     font-family: Impact;
 }
 @media (max-width: 640px) {
-#banner .content .image {
-    height: 100%;
-    width: 100%;
-    margin-left: auto;
-}
-.content {
-    width: 100% !important;
-    padding-right:1em !important;
-    padding-left:1em !important;
-}
+    #banner .content .image {
+        height: 100%;
+        width: 100%;
+        margin-left: auto;
+    }
+    .content {
+        width: 100% !important;
+        padding-right: 1em !important;
+        padding-left: 1em !important;
+    }
     #header h1 {
-    top: 80px;
-}
+        top: 20px;
+    }
     #header h1 a {
-    left: 0.4em;
-    font-size: 2.5rem;
-}
+        left: 0.4em;
+        font-size: 2.5rem;
+    }
     #header {
         text-align: center;
     }
     .title {
-    display: none;
-}
+        display: none;
+    }
     #five header p {
-    text-align: left;
-    padding: 10px;
-}
+        text-align: left;
+        padding: 10px;
+    }
     .search_form h3 {
-    width: 100%;
-    float: left;
-    text-align: center;
-    padding-right: 0;
-    margin: 0;
-}
+        width: 100%;
+        float: left;
+        text-align: center;
+        padding-right: 0;
+        margin: 0;
+    }
     form {
-    margin: 10px 0;
-    padding: 5px 0;
-}
-    .spotlight.left .content, .spotlight.right .content {
-    height: 101%;
-    padding: 1em 1em;
-    top: 0px;
-    width: 28em;
-}
-   #banner .content header h2 {
-    font-size: 1.5em;
-    margin: 0px;
-    line-height: 1em;
-    padding-top: 50px;
-}
+        margin: 10px 0;
+        padding: 5px 0;
+    }
+    .spotlight.left .content,
+    .spotlight.right .content {
+        height: 101%;
+        padding: 1em 1em;
+        top: 0px;
+        width: 28em;
+    }
+    #banner .content header h2 {
+        font-size: 1.5em;
+        margin: 0px;
+        line-height: 1em;
+        padding-top: 50px;
+    }
     .facesHeader h2 {
-    line-height: 1.1em;
-    margin-top: 120px;
-    margin-bottom: 0px;
-    padding-bottom: 0px;
-    font-size: 1.5em;
-}
+        line-height: 1.1em;
+        margin-top: 120px;
+        margin-bottom: 0px;
+        padding-bottom: 0px;
+        font-size: 1.5em;
+    }
     .wrapper {
-    padding: 1em !important;
+        padding: 3.5em .1em !important;
+    }
+    .ugc-inner-wrapper .ugc-input-wrapper input {
+        display: block;
+        width: 100%;
+    }
+    #nav {
+    position: relative;
+    z-index: 100;
+    top: 100px;
+    text-align: center;
 }
 }

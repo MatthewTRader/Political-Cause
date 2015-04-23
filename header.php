@@ -42,11 +42,6 @@
 		<!-- Header -->
 			<header id="header">
 				<h1 id="logo"><a href="/">Faces of Debt</a></h1>
-                
-                        <nav id="nav">
-					<a href="/faces" class="button special">Submit A Selfie</a>
-				</nav>
-                
                 <div class="clear"></div>
 			</header>
 

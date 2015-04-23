@@ -1,5 +1,9 @@
 <?php  /* Template Name: Template Home Page */  get_header(); ?> 
 	<main role="main">
+           <nav id="nav">
+					<a href="/faces" class="button special">Submit A Selfie</a>
+				</nav>
+                
 		<!-- section -->
 		<!-- Banner -->
 			<section id="banner">
@@ -53,7 +57,7 @@
 
 		<!-- Three -->
 			<section id="three" class="spotlight style3 left">
-				<span class="image fit main bottom"><img src="/wp-content/themes/Political%20Cause/images/pic04.jpg" alt="" /></span>
+				<span class="image fit main bottom"><img src="/wp-content/themes/Political%20Cause/images/faces.png" alt="" /></span>
 				<div class="content">
 					<header>
 						<h2>It is time we speak</h2>
